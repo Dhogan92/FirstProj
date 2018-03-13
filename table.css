@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+div {
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+}   
+
+ul {
+    width: 220%;
+    border: 20px solid #85C1E9;
+    border-radius: 4px;
+    padding: 15%;
+    list-style-type: none;
+    margin: 0;
+}
+li { 
+	width: 300px
+   padding: 5px; 
+   list-style-type: none;
+   margin: 0;
+   padding: 15%;
+}
+
+.body { 
+	box-sizing: border-box;
+}
+/* Create three columns of equal width */
+.healthplans {
+	width: 50%;
+	padding: 8%;
+	margin: 4%;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+
+
+}
+/* Style the list */
+.tabledat {
+    list-style-type: none;
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 25%;
+}
+
+/* Add shadows on hover */
+.tabledat:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+
+}
+
+/* Pricing header */
+.tabledat .header {
+    background-color: #3498DB;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.tabledat li {
+ 	border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Grey list item */
+.tabledat .grey {
+    background-color: #eee;
+    font-size: 20px;
+    /* align-content: center; 
+    overflow: hidden;
+    margin: 0 auto; */
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #85C1E9;
+    border: none;
+    color: white;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 320px) {
+    .healthplans {
+        width: 100%;
+        position: fixed;
+}
